@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ExtentListeners.Extentlisteners"/>
+  </listeners>
+  <test thread-count="5" name="ListenersTest(failed)">
+    <classes>
+      <class name="Testcases.Testcase2">
+        <methods>
+          <include name="UserRegister"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- Testcases.Testcase2 -->
+    </classes>
+  </test> <!-- ListenersTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
